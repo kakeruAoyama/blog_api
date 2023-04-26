@@ -40,4 +40,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
  gem 'mysql2', '~> 0.5'
+ gem 'unicorn'
 end
